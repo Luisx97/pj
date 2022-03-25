@@ -6,16 +6,25 @@
       include ("include/head.php");
     ?>
 
-    <title>Hello, world!</title>
+    <title>Inicio | Poder Judicial</title>
 </head>
 
 <body>
-    <button onclick="location.href='login_admin.php'">
-        Login Administrador
-    </button>
-    <button onclick="location.href='login_ciudadano.php'">
-        Login Ciudadano
-        <?php
+    <table>
+        <td>
+            <tr>
+                <button onclick="location.href='login_admin.php'">
+                    Login Administrador
+                </button>
+            </tr>
+            <tr>
+                <button onclick="location.href='login_ciudadano.php'">Login Ciudadano</button>
+            </tr>
+        </td>
+    </table>
+    <br>
+
+    <?php
       include ("include/footer.php");
     ?>
 </body>
