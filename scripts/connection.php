@@ -4,9 +4,9 @@
 
     $con = mysqli_connect(Servidor, User, Pass, BD);
     
-    if (!$con) {
+    /* if (!$con) {
         echo "connection fallida";
     }else {
         echo "hola";
-    }
+    } */
 ?>

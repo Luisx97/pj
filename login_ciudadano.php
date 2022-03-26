@@ -12,7 +12,10 @@
 </head>
 
 <body>
-    <h1>Hola a ingresar Ciudadano</h1>
+    <h1>Encuestas Ciudadano</h1>
+
+    
+
     <?php
       include ("include/footer.php");
     ?>
