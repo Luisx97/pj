@@ -14,7 +14,7 @@
         <td>
             <tr>
                 <button onclick="location.href='login_admin.php'">
-                    Login Administrador
+                    Login Administssssssrador
                 </button>
             </tr>
             <tr>
